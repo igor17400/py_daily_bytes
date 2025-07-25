@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.whl
+
+# Development environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor files
+.vscode/        # VS Code
+.idea/          # IntelliJ / PyCharm
+*.sublime-project
+*.sublime-workspace
+*.DS_Store      # macOS system files
+Thumbs.db       # Windows system files
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Virtual environment management
+pip-log.txt
+pip-delete-this-file.txt
+
+# Custom environment variables / secrets
+.env
+*.env
+.flaskenv
+*.flaskenv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db.sqlite3
+
+# Uploaded files
+media/
+static/
+
+# IDE specific files (common additions)
+*.iml           # IntelliJ IDEA module files
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# PyInstaller / Nuitka
+# These are usually built artifacts that should not be committed.
+# If you are distributing via these, you might want to version them
+# but typically they are only built for releases.
+__pyinstaller__/
+*.spec
+build/
+dist/
+
+# MyPy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# tox
+.tox/
+
+# Flycheck (Emacs)
+.flycheck/
+
+# PyCharm
+.idea/
