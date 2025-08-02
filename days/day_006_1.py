@@ -4,17 +4,15 @@
 
 """
 Goal:
-Demonstrate how to create a clean, readable, and full-featured
-data class with minimal boilerplate code using the
-@dataclass decorator.
+Demonstrate how to create a clean, readable, and full-featured data class with minimal
+boilerplate code using the @dataclass decorator.
 """
 
 ###############
-# The @dataclass Approach
+# The Traditional Boilerplate Approach
 ###############
 
 from dataclasses import dataclass, field
-
 
 @dataclass(frozen=True)  # Makes the object immutable
 class User:
