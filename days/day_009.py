@@ -1,13 +1,12 @@
 ###############
-# Day 9: Breadth-First Search (BFS)
+# Day 9: Breadth-First Search (BFS) - Shortest Paths
 ###############
 
 """
 Goal:
 
-Using an Adjacency List and Adjacency Matrix representations, demonstrate
-how to implement BFS to find the shortest path between two nodes in an
-unweighted graph.
+Using an Adjacency List representation, let's see how to implement
+BFS to find the shortest path between two nodes in an unweighted graph.
 """
 
 ###############
@@ -17,7 +16,7 @@ unweighted graph.
 from collections import deque
 
 
-def bfs_shortest_path(graph, start, end):
+def bfs_shortest_path(graph, start, end): 
     """
     Finds the shortest path between start and end nodes using BFS.
     Returns a list of noded representing the path, or None if
