@@ -38,7 +38,7 @@ def shortest_path(edges: list[list[int]], n: int, src: int) -> list[int]:
                 new_dist = d1 + w2
                 heapq.heappush(min_heap, (new_dist, n2))
 
-    # Add unreachble nodes as infinity
+    # Add unreachable nodes as infinity
     shortest_paths = {i: shortest_dict.get(i, float("inf")) for i in range(n)}
     return shortest_paths
 
